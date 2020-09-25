@@ -430,9 +430,14 @@ main {
 }
 
 
-/* ---------------
-footer
------------------- */
+/*=================================
+  main styling ends here
+=================================*/
+
+
+/*=================================
+  footer styling starts here
+=================================*/
 
 * {
     box-sizing: border-box;
@@ -441,12 +446,14 @@ footer
 .column {
     float: left;
     width: 25%;
-    padding: 10px;
+    padding: 5px;
 }
 
 .column h2 {
+    text-transform: uppercase;
     font-size: large;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .row:after {
@@ -463,10 +470,15 @@ footer
 .column li {
     border-bottom: 1px solid;
     margin: 3px 1px 3px;
+    border-style: dashed;
 }
 
 .column h2~div {
     margin: 5px 1px 10px;
+}
+
+.column a i {
+    font-size: xx-large;
 }
 
 .column p+h2 {
@@ -490,7 +502,11 @@ footer
     margin: 4px 5px 4px;
 }
 
-.footer-nav li:hover {
+.footer-nav li a {
+    color: white;
+}
+
+.footer-nav li a:hover {
     background-color: darkgray;
     cursor: pointer;
     color: black;
@@ -501,15 +517,16 @@ footer
     margin: 4px 5px 4px;
 }
 
+.column form .name,
+.email {
+    width: 100%;
+    padding: 5px;
+}
 
-/*=================================
-  main styling ends here
-=================================*/
-
-
-/*=================================
-  footer styling starts here
-=================================*/
+.column form .submit {
+    float: right;
+    padding: 5px;
+}
 
 
 /*=================================
