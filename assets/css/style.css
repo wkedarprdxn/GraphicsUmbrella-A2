@@ -359,6 +359,7 @@ figure {
     font-size: larger;
     font-weight: bold;
     margin-left: 12px;
+    margin-top: 24px;
     padding: 10px 10px 5px;
 }
 
@@ -375,6 +376,21 @@ figure {
     float: left;
     width: 100px;
     height: 100px;
+}
+
+.port-block {
+    background-color: white;
+    margin: 5px;
+}
+
+.port-block h4 {
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.port-block p {
+    margin-top: 10px;
 }
 
 
