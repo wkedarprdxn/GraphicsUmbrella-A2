@@ -390,8 +390,9 @@ figure {
 
 .wrap-for-2 figure {
     float: left;
-    width: 100px;
+    width: 173px;
     height: 100px;
+    margin-right: 5px;
 }
 
 .port-block {
@@ -407,6 +408,7 @@ figure {
 
 .port-block p {
     margin-top: 10px;
+    overflow: hidden;
 }
 
 
