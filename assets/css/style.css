@@ -394,6 +394,42 @@ figure {
 }
 
 
+/* ------------------
+ Advertisers 
+ ---------------------*/
+
+main {
+    position: relative;
+}
+
+.advertisers h3 {
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 24px;
+    padding: 10px 10px 5px;
+}
+
+.advertisers ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.advertisers ul li {
+    margin: 5px;
+}
+
+.advertisers img {
+    height: 100px;
+}
+
+.top-btn {
+    position: absolute;
+    right: 0;
+}
+
+
 /*=================================
   main styling ends here
 =================================*/
