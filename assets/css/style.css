@@ -317,6 +317,8 @@ figure {
 =================================*/
 
 .main-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
     font-size: larger;
@@ -345,6 +347,34 @@ figure {
 
 .block p {
     font-size: small;
+}
+
+
+/* ------------------
+ portfolio 
+ ---------------------*/
+
+.portfolio h3 {
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 12px;
+    padding: 10px 10px 5px;
+}
+
+.portfolio h3 span {
+    color: green;
+}
+
+.wrap-for-2 {
+    display: flex;
+    margin: 10px;
+}
+
+.wrap-for-2 figure {
+    float: left;
+    width: 100px;
+    height: 100px;
 }
 
 
