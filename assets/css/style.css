@@ -284,7 +284,6 @@ figure {
 }
 
 .bg-green {
-    position: relative;
     display: flex;
 }
 
@@ -302,6 +301,11 @@ figure {
     font-weight: bold;
 }
 
+.carousel button {
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
 
 /*=================================
   Carousel styling ends here
@@ -311,6 +315,37 @@ figure {
 /*=================================
   main styling starts here
 =================================*/
+
+.main-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.feature-icon ul {
+    display: flex;
+    text-align: center;
+}
+
+.feature-icon ul li {
+    margin: 20px
+}
+
+.block img {
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+}
+
+.block h3 {
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.block p {
+    font-size: small;
+}
 
 
 /*=================================
