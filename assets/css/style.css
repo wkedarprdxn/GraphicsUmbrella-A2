@@ -289,6 +289,7 @@ figure {
 
 .bg-green h2 {
     display: inline-block;
+    text-transform: uppercase;
 }
 
 .bg-green figure {
@@ -321,8 +322,10 @@ figure {
     padding-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
-    font-size: larger;
-    font-weight: 900;
+    font-size: xx-large;
+    font-weight: bold;
+    border-bottom: dashed;
+    border-color: rgba(147, 207, 147, 0.65);
 }
 
 .feature-icon ul {
@@ -341,7 +344,7 @@ figure {
 
 .block h3 {
     text-transform: uppercase;
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -355,6 +358,7 @@ figure {
  ---------------------*/
 
 .portfolio h3 {
+    position: relative;
     text-transform: uppercase;
     font-size: larger;
     font-weight: bold;
@@ -366,6 +370,18 @@ figure {
 .portfolio h3 span {
     color: green;
 }
+
+
+/* .portfolio h3::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #191970;
+    right: 0;
+    top: 50%;
+    position: absolute;
+} */
 
 .wrap-for-2 {
     display: flex;
@@ -411,6 +427,10 @@ main {
     padding: 10px 10px 5px;
 }
 
+.advertisers span {
+    color: green;
+}
+
 .advertisers ul {
     display: flex;
     margin-top: 10px;
@@ -429,6 +449,14 @@ main {
     right: 0;
 }
 
+.top-btn button {
+    border-radius: 50%;
+}
+
+.top-btn button:hover {
+    background-color: bisque;
+}
+
 
 /*=================================
   main styling ends here
@@ -441,6 +469,10 @@ main {
 
 * {
     box-sizing: border-box;
+}
+
+footer {
+    background-color: white;
 }
 
 .column {
