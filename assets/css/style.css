@@ -271,6 +271,44 @@ header h1 {
 
 
 /*=================================
+  Carousel styling starts here
+=================================*/
+
+section {
+    display: flex;
+    background-color: rgb(127, 192, 61);
+}
+
+figure {
+    display: inline-block;
+}
+
+.bg-green {
+    position: relative;
+    display: flex;
+}
+
+.bg-green h2 {
+    display: inline-block;
+}
+
+.bg-green figure {
+    padding: 20px;
+}
+
+.bg-green h2 {
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+/*=================================
+  Carousel styling ends here
+=================================*/
+
+
+/*=================================
   main styling starts here
 =================================*/
 
