@@ -415,6 +415,24 @@ figure {
     overflow: hidden;
 }
 
+.port-block button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-shadow: black 1px 1px;
+}
+
+.port-block button:hover {
+    background-color: darkkhaki;
+    color: black;
+    text-shadow: red 1px 1px;
+}
+
 
 /* ------------------
  Advertisers 
@@ -559,11 +577,25 @@ footer {
 .email {
     width: 100%;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .column form .submit {
+    margin-top: 10px;
     float: right;
-    padding: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    text-shadow: black 1px 1px;
+}
+
+.column form .submit:hover {
+    background-color: darkkhaki;
+    color: black;
 }
 
 
