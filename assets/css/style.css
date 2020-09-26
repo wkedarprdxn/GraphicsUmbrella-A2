@@ -529,8 +529,34 @@ footer {
     border-style: dashed;
 }
 
-.column h2~div {
-    margin: 5px 1px 10px;
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon:first-child {
+    padding: 0px;
+}
+
+.email:nth-child(1)::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f199";
+}
+
+.phone::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f095";
+}
+
+.mobile::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f10b";
 }
 
 .column a i {
