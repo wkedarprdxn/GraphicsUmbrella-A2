@@ -328,6 +328,10 @@ figure {
     border-color: rgba(147, 207, 147, 0.65);
 }
 
+.main-header span {
+    color: green;
+}
+
 .feature-icon ul {
     display: flex;
     text-align: center;
